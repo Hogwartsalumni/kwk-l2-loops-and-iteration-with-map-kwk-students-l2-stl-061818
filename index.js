@@ -19,17 +19,6 @@ function nameToAttributes(name){
   return name.map(firstAndLast);
 }
 
-function firstAndHome(firstNameHome) {
-  let studentsInfo = [
-        { name: 'Mary', hometown: 'Allegheny' },
-        { name: 'Joan', hometown: 'Chicago' },
-        { name: 'Eva', hometown: 'Hamburg' },
-        { name: 'Frida', hometown: 'Coyoacán' },
-        { name: 'Taylor', hometown: 'Reading' }
-      ];
-  return `'${studentsInfo.name} is from ${studentsInfo.hometown}'`;
-}
-
-function attributsToPhrase(firstName) {
-  return firstName.map(firstAndHome);
+function attributsToPhrase(info) {
+  return info.map(function(person))
 }
