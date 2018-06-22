@@ -20,5 +20,7 @@ function nameToAttributes(name){
 }
 
 function attributsToPhrase(info) {
-  return info.map(function(person))
+  return info.map(function response(person)) {
+    return `${person.name} is from ${person.hometown}`;
+  }
 }
