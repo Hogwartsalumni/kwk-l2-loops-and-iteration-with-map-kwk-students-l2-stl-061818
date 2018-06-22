@@ -19,8 +19,8 @@ function nameToAttributes(name){
   return name.map(firstAndLast);
 }
 
-function attributsToPhrase(studentName) {
-  return studentName.map(function (person)) {
-    return `${person.name} is from ${persons.hometown}`;
+function attributsToPhrase(studentArray) {
+  return studentArray.map(function (person)); {
+    return `${person.name} is from ${person.hometown}`;
   }
 }
